@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Mansalva|Roboto&display=swap');
+/*
+https://fonts.google.com/selection?selection.family=Bitter|Mansalva|Roboto
+*/
+
+body {
+    margin: 0px;
+}
+
+h1,h3 {
+    color: red;
+    font-family: 'Bitter', serif;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+header {
+    height: 250px;
+    background-color: #eeeeee;
+}
+
+header img {
+    padding: 5px;
+}
+
+main {
+    padding: 5px 10px;
+}
+
+main p {
+    text-align: justify;
+    font-family: 'Mansalva', cursive;
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: #eeeeee;
+    padding:25px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul {
+    position: absolute;
+    top: 195px;
+}
+
+nav ul li {
+    display:inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #aaaaaa;
+    color: #ffffff;
+    padding: 10px 25px;
+    margin-right: 20px;
+    border-radius: 8px 8px 0px 0px;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: #888888;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #aaaaaa;
+    color: #ffffff;
+    padding: 10px 25px;
+    margin-right: 20px;
+    border-radius: 8px;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button:hover {
+    background-color: #888888;
+}
+
+.fab {
+    width: 15px;
+    height: 15px;
+    padding: 15px;
+    border-radius: 100%;
+    background-color: #aaaaaa;
+    border: 5px solid #000000;
+    color: #ffffff;
+    margin-right: 25px;
+}
+
+.fab:hover {
+    background-color: #888888;
+}
